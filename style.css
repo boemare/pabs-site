@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=GFS+Didot&display=swap');
 
 html, body { background: #ffffff; }
 body {
@@ -15,3 +15,4 @@ a { color: #6e3ff3; text-decoration: none; }
 a:hover { color: #4b22c4; text-decoration: underline; }
 ul { padding-left: 1.5em; }
 .by { color: #6b6b6b; }
+.gr { font-family: "GFS Didot", "EB Garamond", Georgia, serif; font-style: italic; }
