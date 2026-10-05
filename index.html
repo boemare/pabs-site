@@ -5,148 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>pabs</title>
   <meta name="description" content="pabs is building self-evolving probes to seed life on other planets.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #ffffff;
-      --fg: #111111;
-      --muted: #6b6b6b;
-      --link: #6e3ff3;
-      --link-hover: #4b22c4;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --bg: #111111;
-        --fg: #e8e6e1;
-        --muted: #9a9a9a;
-        --link: #a98bff;
-        --link-hover: #c6b3ff;
-      }
-    }
-    :root[data-theme="dark"] {
-      --bg: #111111;
-      --fg: #e8e6e1;
-      --muted: #9a9a9a;
-      --link: #a98bff;
-      --link-hover: #c6b3ff;
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; background: var(--bg); }
-    body {
-      color: var(--fg);
-      font-family: "EB Garamond", Garamond, "Times New Roman", serif;
-      font-size: 20px;
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-    }
-    main {
-      max-width: 620px;
-      margin: 0 auto;
-      padding: 72px 16px 96px;
-    }
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
-    a:hover { color: var(--link-hover); text-decoration: underline; }
-    nav {
-      display: flex;
-      gap: 1.25em;
-      margin: 0 0 2.5em;
-    }
-    h1 {
-      font-size: 1em;
-      font-weight: 500;
-      margin: 0 0 1em;
-    }
-    h2 {
-      font-size: 1em;
-      font-weight: 500;
-      margin: 2.5em 0 0.75em;
-    }
-    p { margin: 0 0 1em; }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 1em;
-    }
-    li { margin: 0; }
-    .by { color: var(--muted); }
-    @media (max-width: 480px) {
-      body { font-size: 18px; }
-      main { padding-top: 48px; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-  <nav>
-    <a href="https://x.com/pabsclimbs">dms open</a>
-    <a href="#beliefs">beliefs</a>
-  </nav>
 
-  <h1>Hi! I’m pabs, I’m working on building <a href="https://fab.cba.mit.edu/classes/MAS.865/topics/self_replication/VonNeumann.pdf">self-evolving probes</a> to seed life on other planets.</h1>
+<h1>pabs</h1>
+<p>Hi! I’m pabs, I’m working on building <a href="https://fab.cba.mit.edu/classes/MAS.865/topics/self_replication/VonNeumann.pdf">self-evolving probes</a> to seed life on other planets.</p>
 
-  <h2 id="about">About</h2>
+<p><a href="https://x.com/pabsclimbs">dms open</a> &middot; <a href="/beliefs">beliefs</a></p>
 
-  <p>I believe problems 1,2,3 are energy efficiency, live communication and mobility.</p>
+<h2>About</h2>
 
-  <p>to examine 1,2: last year, i deployed 100 self-sustaining solar-powered, <a href="https://www.starlink.com">Starlink</a>-ed edge-AI field computers across the Congo, the Amazon, the Andes and the Himalaya, with <a href="https://www.microsoft.com/en-us/ai/ai-for-good">Microsoft</a> and <a href="https://www.worldwildlife.org">WWF</a>.</p>
+<p>I believe problems 1,2,3 are energy efficiency, live communication and mobility.</p>
 
-  <p>now im focused on introducing 3, mobility in extreme terrain and putting the first humanoid on <a href="https://en.wikipedia.org/wiki/Mount_Everest">everest</a>.</p>
+<p>to examine 1,2: last year, i deployed 100 self-sustaining solar-powered, <a href="https://www.starlink.com">Starlink</a>-ed edge-AI field computers across the Congo, the Amazon, the Andes and the Himalaya, with <a href="https://www.microsoft.com/en-us/ai/ai-for-good">Microsoft</a> and <a href="https://www.worldwildlife.org">WWF</a>.</p>
 
-  <p>
-    im exploring robot rope ascension with the VISTA team at <a href="https://www.lix.polytechnique.fr">LIX, Polytechnique</a>.<br>
-    using mountains as lunar analogues for space-robot benchmarking with the <a href="https://www.seti.org">SETI Institute</a>.<br>
-    workshop im doing on Humanoids at the Edge for <a href="https://2026.ieee-humanoids.org">IEEE Humanoids 2026</a>, Santa Clara
-  </p>
+<p>now im focused on introducing 3, mobility in extreme terrain and putting the first humanoid on <a href="https://en.wikipedia.org/wiki/Mount_Everest">everest</a>.</p>
 
-  <p>before, i:</p>
-  <ul>
-    <li>put a robot on the <a href="https://en.wikipedia.org/wiki/Chimborazo">world’s closest point to the Sun</a>.</li>
-    <li>was first-employee at a cloud inference provider backed by tier 1, <a href="https://www.hf0.com">hf0</a></li>
-    <li>built the <a href="https://github.com/libobs-rs/libobs-rs">first Rust wrapper for OBS</a> with <a href="https://x.ai">xAI</a>, so AI can read live video at optimal latency.</li>
-    <li>wired a $10M mansion with 50 cameras and an AI that watched founders around the clock</li>
-    <li>built a boat at the <a href="https://www.atlanticcollege.org">RIB’s birthplace</a> that is now used to rescue refugees in the Mediterranean</li>
-    <li>was raised on a <a href="https://en.wikipedia.org/wiki/Vanuatu">20,000 people island</a> and across Africa</li>
-  </ul>
+<p>
+  im exploring robot rope ascension with the VISTA team at <a href="https://www.lix.polytechnique.fr">LIX, Polytechnique</a>.<br>
+  using mountains as lunar analogues for space-robot benchmarking with the <a href="https://www.seti.org">SETI Institute</a>.<br>
+  workshop im doing on Humanoids at the Edge for <a href="https://2026.ieee-humanoids.org">IEEE Humanoids 2026</a>, Santa Clara
+</p>
 
-  <p>I operate between Paris, San Francisco and Shenzhen.</p>
+<p>before, i:</p>
+<ul>
+  <li>put a robot on the <a href="https://en.wikipedia.org/wiki/Chimborazo">world’s closest point to the Sun</a>.</li>
+  <li>was first-employee at a cloud inference provider backed by tier 1, <a href="https://www.hf0.com">hf0</a></li>
+  <li>built the <a href="https://github.com/libobs-rs/libobs-rs">first Rust wrapper for OBS</a> with <a href="https://x.ai">xAI</a>, so AI can read live video at optimal latency.</li>
+  <li>wired a $10M mansion with 50 cameras and an AI that watched founders around the clock</li>
+  <li>built a boat at the <a href="https://www.atlanticcollege.org">RIB’s birthplace</a> that is now used to rescue refugees in the Mediterranean</li>
+  <li>was raised on a <a href="https://en.wikipedia.org/wiki/Vanuatu">20,000 people island</a> and across Africa</li>
+</ul>
 
-  <p>My favourite book is <a href="https://en.wikipedia.org/wiki/Leo_Africanus_(novel)">Léon l'Africain</a>.</p>
+<p>I operate between Paris, San Francisco and Shenzhen.</p>
 
-  <p>My current bookshelf:</p>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/The_Story_of_Civilization">The Age of Napoleon</a>, <span class="by">Will and Ariel Durant</span></li>
-    <li><a href="https://www.amazon.com/Vital-Question-Evolution-Origins-Complex/dp/0393088812">The Vital Question</a>, <span class="by">Nick Lane</span></li>
-    <li><a href="https://en.wikipedia.org/wiki/The_Roots_of_Heaven">The Roots of Heaven</a>, <span class="by">Romain Gary</span></li>
-    <li><a href="https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus">The Myth of Sisyphus</a>, <span class="by">Albert Camus</span></li>
-    <li><a href="https://en.wikipedia.org/wiki/Seeing_Like_a_State">Seeing Like a State</a>, <span class="by">James C. Scott</span></li>
-    <li><a href="https://en.wikipedia.org/wiki/Half-Earth">Half-Earth</a>, <span class="by">E. O. Wilson</span></li>
-  </ul>
+<p>My favourite book is <a href="https://en.wikipedia.org/wiki/Leo_Africanus_(novel)">Léon l'Africain</a>.</p>
 
-  <h2 id="beliefs">Beliefs</h2>
+<p>My current bookshelf:</p>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/The_Story_of_Civilization">The Age of Napoleon</a>, <span class="by">Will and Ariel Durant</span></li>
+  <li><a href="https://www.amazon.com/Vital-Question-Evolution-Origins-Complex/dp/0393088812">The Vital Question</a>, <span class="by">Nick Lane</span></li>
+  <li><a href="https://en.wikipedia.org/wiki/The_Roots_of_Heaven">The Roots of Heaven</a>, <span class="by">Romain Gary</span></li>
+  <li><a href="https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus">The Myth of Sisyphus</a>, <span class="by">Albert Camus</span></li>
+  <li><a href="https://en.wikipedia.org/wiki/Seeing_Like_a_State">Seeing Like a State</a>, <span class="by">James C. Scott</span></li>
+  <li><a href="https://en.wikipedia.org/wiki/Half-Earth">Half-Earth</a>, <span class="by">E. O. Wilson</span></li>
+</ul>
 
-  <p>Robots will save humans, fauna and flora alike.<br>
-  Nature will not be saved by leaving it alone. It will be saved by mass surveillance from embedded artificial life.</p>
-
-  <p>Conservation needs companies. I call that coexistence.<br>
-  <a href="https://www.rainmaker.com">Rainmaker</a>, <a href="https://colossal.com">Colossal</a> and <a href="https://www.basecamp-research.com">Basecamp</a> are what coexistence institutions should look like.<br>
-  <a href="https://coralgardeners.org">Coral Gardeners</a> and <a href="https://theoceancleanup.com">The Ocean Cleanup</a> are rare flashes of brilliance in nonprofit.<br>
-  <a href="https://www.spacex.com">SpaceX</a> and <a href="https://www.tesla.com">Tesla</a> have done more net good for the planet than <a href="https://www.worldwildlife.org">WWF</a>.<br>
-  <a href="https://terraformindustries.com">Terraform Industries</a> and <a href="https://blog.pioneer-labs.org/">Pioneer Labs</a> are great examples of space technology driving coexistence benefits.</p>
-
-  <p>There is so much land. And so much is badly allocated.<br>
-  Humans have never been good at sharing. So we need distinct places to consume and distinct places to retreat into a spiritual idea of how life used to be lived. <a href="https://en.wikipedia.org/wiki/Noble_savage">Rousseau’s Noble Savage</a> is a great idea for that. <a href="https://en.wikipedia.org/wiki/Cloud_seeding">Cloud seeding</a> and <a href="https://en.wikipedia.org/wiki/De-extinction">de-extinction</a> among others let us place these ecosystems deliberately anywhere.</p>
-
-  <p>Humans should expand slowly. Machines should expand fast.<br>
-  Mining and extraction belong to machines and they should be sent <a href="https://en.wikipedia.org/wiki/Asteroid_mining">off-world</a> first. <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">Do Androids Dream of Electric Sheep?</a> is a great idea.</p>
-
-  <p>Mountains are the cheapest Moon.<br>
-  Companies spend millions qualifying hardware for space. Cold, altitude, isolation and a camp-to-camp chain can retire that risk first.</p>
-</main>
 </body>
 </html>

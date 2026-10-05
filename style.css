@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+html, body { background: #ffffff; }
+body {
+  margin: 8px;
+  padding-left: 1rem;
+  color: #111111;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2 { font-size: 1.2em; font-weight: 500; }
+a { color: #6e3ff3; text-decoration: none; }
+a:hover { color: #4b22c4; text-decoration: underline; }
+ul { padding-left: 1.5em; }
+.by { color: #6b6b6b; }
