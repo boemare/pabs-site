@@ -10,7 +10,7 @@ body {
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
 }
-h1, h2 { font-size: 1.2em; font-weight: 500; }
+h1, h2 { font-size: 1em; font-weight: 500; }
 a { color: #6e3ff3; text-decoration: none; }
 a:hover { color: #4b22c4; text-decoration: underline; }
 ul { padding-left: 1.5em; }
